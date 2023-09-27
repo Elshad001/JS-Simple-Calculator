@@ -51,23 +51,39 @@
     border: none;
     border-radius:5px;
 }
+.number:hover
+{
+    background-color: rgb(138, 138, 240);
+}
 .operand
 {
-    background-color: rgb(204, 204, 216);
+    background-color: rgb(196, 180, 162);
     border: none;
     border-radius:5px;
+}
+.operand:hover
+{
+    background-color: rgb(235, 183, 146);
 }
 #clear
 {
     grid-row: 4/6;
-    background-color: rgb(245, 169, 182);
+    background-color: rgb(242, 107, 130);
     border: none;
     border-radius:5px;
 }
+#clear:hover
+{
+    background-color: rgb(245, 170, 181);
+}
 #equal
 {
-    grid-column: 2/5;
+    grid-column: 3/5;
     background-color: rgb(117, 201, 162);
     border: none;
     border-radius:5px;
+}
+#equal:hover
+{
+    background-color: rgb(174, 247, 194);
 }
